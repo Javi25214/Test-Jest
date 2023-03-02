@@ -19,10 +19,7 @@ const fromDollartoEuro = function(valueInDollar){
     return valueInEuro;
 }
 
-const fromDollarToYen = function(valueInDollar){     
-    let valueInYen = fromDollartoEuro(valueInDollar) * oneEuroIs.JPY;
-    return valueInYen;
-}
+
 
 const fromYentoEuro = function(valueInYen){
     let valueInEuro = Math.floor(valueInYen / oneEuroIs.JPY);
